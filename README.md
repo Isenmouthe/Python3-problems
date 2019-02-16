@@ -7,8 +7,10 @@ to be done
 between 2000 and 3200 (both included). The numbers obtained should be printed in a comma-separated sequence on a single line.
 * [N01 Solution](#N01)
 
+```python3
 l=[]
 for num in range (2000,3200):
     if((num%7==0) and (num%5!=0)):
         l.append(num)
 print(*l, sep=',')
+```
