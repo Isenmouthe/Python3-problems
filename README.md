@@ -20,3 +20,17 @@ print(*l, sep=',')
 
 
 #02: Write a program which can compute the factorial of a given numbers. The results should be printed in a comma-separated sequence on a single line.
+
+<details>
+  <summary>Solution</summary>
+  
+```python3
+def factorial(x):
+    if(x==0):
+        return 1
+    return factorial(x-1)*x
+
+n=int(input())
+print(factorial(n))
+```
+</details>
