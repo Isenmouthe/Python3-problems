@@ -55,3 +55,22 @@ print(d)
 getString: to get a string from console input
 printString: to print the string in upper case.
 Also please include simple test function to test the class methods.
+<details>
+  <summary>Solution</summary>
+  
+```python3
+class inout:
+    def __init__(self):
+        self.s=""
+    
+    def gestring(self):
+        self.s=input()
+
+    def prinstring(self):
+        print(self.s.upper())
+
+strobj=inout()
+strobj.gestring()
+strobj.prinstring()
+```
+</details>
