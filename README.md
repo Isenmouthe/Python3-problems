@@ -1,6 +1,5 @@
 # Python3-problems
-to be done 
-
+https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt
 # **LEVEL 1**
 
 #01: Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5,
