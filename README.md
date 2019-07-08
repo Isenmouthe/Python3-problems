@@ -220,3 +220,31 @@ print("LETTERS", d["LETTERS"])
 print("DIGIT", d["DIGITS"])
 ```
 </details>
+
+#14: Write a program that accepts a sentence and calculate the number of upper case letters and lower case letters.
+Suppose the following input is supplied to the program:
+Hello world!
+Then, the output should be:
+UPPER CASE 1
+LOWER CASE 9
+
+Hints:
+In case of input data being supplied to the question, it should be assumed to be a console input.
+<details>
+  <summary>Solution</summary>
+  
+```python3
+File Edit Options Buffers Tools Python Prelude Projectile Help
+s=input()
+d={"UPPER CASE":0, "LOWER CASE":0}
+for i in s:
+    if i.isupper():
+        d["UPPER CASE"]+=1
+    elif i.islower():
+        d["LOWER CASE"]+=1
+    else:
+        pass
+print("UPPER CASE", d["UPPER CASE"])
+print("LOWER CASE", d["LOWER CASE"])
+```
+</details>
