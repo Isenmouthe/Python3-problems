@@ -192,3 +192,31 @@ for i in range(1000,3001):
 print(",".join(values))
 ```
 </details>
+
+#13: Write a program that accepts a sentence and calculate the number of letters and digits.
+Suppose the following input is supplied to the program:
+hello world! 123
+Then, the output should be:
+LETTERS 10
+DIGITS 3
+
+Hints:
+In case of input data being supplied to the question, it should be assumed to be a console input.
+
+<details>
+  <summary>Solution</summary>
+  
+```python3
+s=input()
+d={"LETTERS":0, "DIGITS":0}
+for i in s:
+    if i.isdigit():
+        d["DIGITS"]+=1
+    elif i.isalpha():
+        d["LETTERS"]+=1
+    else:
+        pass
+print("LETTERS", d["LETTERS"])
+print("DIGIT", d["DIGITS"])
+```
+</details>
