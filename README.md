@@ -234,7 +234,6 @@ In case of input data being supplied to the question, it should be assumed to be
   <summary>Solution</summary>
   
 ```python3
-File Edit Options Buffers Tools Python Prelude Projectile Help
 s=input()
 d={"UPPER CASE":0, "LOWER CASE":0}
 for i in s:
